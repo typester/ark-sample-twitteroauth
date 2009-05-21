@@ -1,15 +1,17 @@
-== Install
+# TwitterOauth sample for ark
+
+## Install
 
 1. Install ark and its prereqs
 2. Install some required modules described below
 3. Write your own twitter.yaml and locate it in application home directory
 
-== Required
+## Required
 
 * Net::Twitter::OAuth
 * Cache::FastMmap
 
-== twitter.yaml
+## twitter.yaml
 
 To run this application, you have to write your own twitter.yaml like following:
 
@@ -18,7 +20,7 @@ To run this application, you have to write your own twitter.yaml like following:
 
 You can get these keys at http://twitter.com/oauth_clients
 
-== Running application
+## Running application
 
 In application home directory, simply run:
 
